@@ -1,0 +1,22 @@
+{
+  "name": "didari",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poonzah/didari.git"
+  },
+  "author": "Dariush Alipour <drsh.alipour@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/poonzah/didari/issues"
+  },
+  "homepage": "https://github.com/poonzah/didari#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
