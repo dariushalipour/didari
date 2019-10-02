@@ -2,9 +2,14 @@
   "name": "didari",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow",
+    "compile-ts": "tsc --outDir lib",
+    "rm-lib": "rm -rf lib",
+    "build": "run-s -s rm-lib compile-ts",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,9 @@
   },
   "homepage": "https://github.com/poonzah/didari#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "@types/node": "^12.7.9",
+    "jest": "^24.9.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.6.3"
   }
 }

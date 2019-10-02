@@ -62,3 +62,7 @@ typings/
 
 # project specific
 build
+lib
+
+# misc
+.DS_Store
